@@ -382,7 +382,7 @@ export default function LandingPage() {
                 whileHover={{ y: -6, scale: 1.01 }}
                 className="rounded-3xl p-7 transition-all cursor-default"
                 style={{
-                  gridColumn: window && window.innerWidth >= 1024 ? `span ${f.span}` : 'span 1',
+                  gridColumn: `span ${f.span}`,
                   backgroundColor: f.dark ? '#1E1E1E' : f.accent ? '#FAF3E9' : '#E6E3DF',
                   color: f.dark ? 'white' : '#1E1E1E',
                   boxShadow: f.dark ? '0 30px 40px -20px rgba(0,0,0,0.4)' : '0 30px 40px -20px rgba(0,0,0,0.1)',
